@@ -10,6 +10,9 @@ export default function Home() {
       <div>
         <Link href="/avatarLoad">AvatarLoad</Link>
       </div>
+      <div>
+        <Link href="/avatarSave">AvatarSave</Link>
+      </div>
     </main>
   );
 }
