@@ -2,8 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .all-\[unset\] {
-    all: unset;
-  }
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
 }
